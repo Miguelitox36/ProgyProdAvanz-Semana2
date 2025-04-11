@@ -18,6 +18,7 @@ namespace PrograYProdAvan_Semana2_EjercicioyPE
             catch (Exception ex) 
             {
                 Console.WriteLine($"¡Ocurrio un error {ex.Message}!");
+                Console.WriteLine("Error: " + ex.Message);
             }
         }
     }
