@@ -12,14 +12,15 @@ namespace PrograYProdAvan_Semana2_EjercicioyPE
         {
             try
             {
-                var game = new Game();
+                Game game = new Game();
                 game.Start();
             }
-            catch (Exception ex) 
+            catch (Exception ex)
             {
-                Console.WriteLine($"¡Ocurrio un error {ex.Message}!");
-                Console.WriteLine("Error: " + ex.Message);
+                Console.WriteLine("¡Ocurrió un error inesperado!");
+                Console.WriteLine(ex.Message);
             }
         }
     }
 }
+

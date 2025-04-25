@@ -8,10 +8,7 @@ namespace PrograYProdAvan_Semana2_EjercicioyPE
 {
     public class EnemyMelee : Character, IEnemy
     {
-        public EnemyMelee(string name) : base (name, 40, 10) 
-        {
-
-        }
+        public EnemyMelee(string name) : base(name, 40, 20) { }
 
         public override void TakeDamage(int amount)
         {

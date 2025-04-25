@@ -8,10 +8,7 @@ namespace PrograYProdAvan_Semana2_EjercicioyPE
 {
     public class Player : Character
     {
-        public Player(string name, int health, int damage) : base (name,health, damage)
-        {
-
-        }
+        public Player(string name, int health, int damage) : base(name, health, damage) { }
 
         public override void TakeDamage(int amount)
         {
@@ -30,5 +27,6 @@ namespace PrograYProdAvan_Semana2_EjercicioyPE
             Health += amount;
             Console.WriteLine($"{Name} recupera {amount} de vida. Vida actual: {Health}");
         }
+
     }
 }

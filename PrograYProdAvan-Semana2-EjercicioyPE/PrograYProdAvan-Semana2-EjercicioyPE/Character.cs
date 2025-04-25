@@ -18,13 +18,10 @@ namespace PrograYProdAvan_Semana2_EjercicioyPE
             this.Name = name;
             this.Health = health;
             this.Damage = damage;
-        }    
+        }
 
-    public abstract void TakeDamage(int amount);
-
-    public bool IsAlive => Health > 0;
-
-    public abstract void Attack(Character target);
-
+        public abstract void TakeDamage(int amount);
+        public abstract void Attack(Character target);
+        public bool IsAlive { get { return Health > 0; } }
     }
 }
