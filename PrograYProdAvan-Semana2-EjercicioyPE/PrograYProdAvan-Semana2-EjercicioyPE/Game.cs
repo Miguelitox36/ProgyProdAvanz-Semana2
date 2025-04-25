@@ -19,10 +19,10 @@ namespace PrograYProdAvan_Semana2_EjercicioyPE
             Console.Write("Nombre: ");
             string name = Console.ReadLine();
 
-            int vida = GetStat("vida", 100);
-            int daño = 100 - vida;
+            int health = GetStat("vida", 100);
+            int daño = 100 - health;
 
-            player = new Player(name, vida, daño);
+            player = new Player(name, health, daño);
             decisionManager = new DecisionManager();
             map = GenerateMap();
 
