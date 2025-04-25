@@ -86,10 +86,18 @@ namespace PrograYProdAvan_Semana2_EjercicioyPE
                 new Map { type = Type.Combate, Enemy = new EnemyRange("Arquero") },
                 new Map { type = Type.Decision, DecisionKey = "6" },
                 new Map { type = Type.Camino },
+                new Map { type = Type.Combate, Enemy = new EnemyRange("Centauro") },
                 new Map { type = Type.Decision, DecisionKey = "7" },
+                new Map { type = Type.Camino },
+                new Map { type = Type.Combate, Enemy = new EnemyRange("Mago") },
                 new Map { type = Type.Decision, DecisionKey = "8" },
+                new Map { type = Type.Camino },
+                new Map { type = Type.Combate, Enemy = new EnemyRange("Enano") },
                 new Map { type = Type.Decision, DecisionKey = "9" },
+                new Map { type = Type.Camino },
+                new Map { type = Type.Combate, Enemy = new EnemyRange("Bandido") },
                 new Map { type = Type.Decision, DecisionKey = "10" },
+                new Map { type = Type.Camino },
             };
         }
 
